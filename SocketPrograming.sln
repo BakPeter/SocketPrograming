@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyUDPBroadcastSender", "UdemyUDPBroadcastSender\UdemyUDPBroadcastSender.csproj", "{50FE73EA-84F5-44A8-8BA4-C6215AD544CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyUDPBroadcastReceiver", "UdemyUDPBroadcastReceiver\UdemyUDPBroadcastReceiver.csproj", "{8FA6B231-6536-49C5-9096-A65B6C9E39E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatProject", "ChatProject", "{6263A2E6-FB76-4EA4-A018-9B789705E263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPAsynchronousChat", "UDPAsynchronousChat\UDPAsynchronousChat.csproj", "{2F630F2F-FB64-4652-9004-20469637F373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPChatServerWPF", "UDPChatServerWPF\UDPChatServerWPF.csproj", "{7CA32A61-7156-47DF-B3EA-693D0F90FB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPChatCleintWPF", "UDPChatCleintWPF\UDPChatCleintWPF.csproj", "{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CourseCode", "CourseCode", "{7E9CBBD1-11DE-4FE0-BD54-E0C9A7F9FAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPChatServerForm", "CourseCode\UDP Asynchronous Chat\UDP Asynchronous Chat\UDPChatServerForm\UDPChatServerForm.csproj", "{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPChatClientForm", "CourseCode\UDP Asynchronous Chat\UDP Asynchronous Chat\UDPChatClientForm\UDPChatClientForm.csproj", "{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP Asynchronous Chat", "CourseCode\UDP Asynchronous Chat\UDP Asynchronous Chat\UDP Asynchronous Chat\UDP Asynchronous Chat.csproj", "{CE3BE30F-9B21-4D88-817D-E3F0C46C0565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FE73EA-84F5-44A8-8BA4-C6215AD544CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FE73EA-84F5-44A8-8BA4-C6215AD544CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FE73EA-84F5-44A8-8BA4-C6215AD544CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FE73EA-84F5-44A8-8BA4-C6215AD544CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA6B231-6536-49C5-9096-A65B6C9E39E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA6B231-6536-49C5-9096-A65B6C9E39E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA6B231-6536-49C5-9096-A65B6C9E39E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA6B231-6536-49C5-9096-A65B6C9E39E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F630F2F-FB64-4652-9004-20469637F373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F630F2F-FB64-4652-9004-20469637F373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F630F2F-FB64-4652-9004-20469637F373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F630F2F-FB64-4652-9004-20469637F373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA32A61-7156-47DF-B3EA-693D0F90FB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA32A61-7156-47DF-B3EA-693D0F90FB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA32A61-7156-47DF-B3EA-693D0F90FB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA32A61-7156-47DF-B3EA-693D0F90FB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3BE30F-9B21-4D88-817D-E3F0C46C0565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3BE30F-9B21-4D88-817D-E3F0C46C0565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3BE30F-9B21-4D88-817D-E3F0C46C0565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3BE30F-9B21-4D88-817D-E3F0C46C0565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F630F2F-FB64-4652-9004-20469637F373} = {6263A2E6-FB76-4EA4-A018-9B789705E263}
+		{7CA32A61-7156-47DF-B3EA-693D0F90FB09} = {6263A2E6-FB76-4EA4-A018-9B789705E263}
+		{D16A1979-5EBE-40E5-A6C3-6E7BCE71F71C} = {6263A2E6-FB76-4EA4-A018-9B789705E263}
+		{AF0A1AF8-5268-40C1-A991-2A498FD3EB0D} = {7E9CBBD1-11DE-4FE0-BD54-E0C9A7F9FAB0}
+		{72A08657-1F61-4FA4-8FCE-DBB7CDF8B8C4} = {7E9CBBD1-11DE-4FE0-BD54-E0C9A7F9FAB0}
+		{CE3BE30F-9B21-4D88-817D-E3F0C46C0565} = {7E9CBBD1-11DE-4FE0-BD54-E0C9A7F9FAB0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59E71FA3-3654-41FE-A7C5-F813BE9444C3}
+	EndGlobalSection
+EndGlobal
